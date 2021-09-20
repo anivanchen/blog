@@ -1,6 +1,6 @@
 module.exports = {
   reactStrictMode: true,
-  assetPrefix: '/blog/',
+  assetPrefix: '/',
   target: 'serverless',
   webpack: function (config) {
     config.module.rules.push({test:  /\.md$/, use: 'raw-loader'})
